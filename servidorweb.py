@@ -1,7 +1,7 @@
 import socket 
 import threading
 
-host = '54.242.176.207'
+host = '54.221.43.176'
 port =  8000
 
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
