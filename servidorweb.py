@@ -2,7 +2,7 @@ import socket
 import threading
 
 host = '172.31.27.225'
-port =  80
+port =  8000
 
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serversocket.setsockopt(socket.SOL_SOCKET , socket.SO_REUSEADDR , 1)
